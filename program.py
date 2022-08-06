@@ -12,7 +12,7 @@ from win32api import GetSystemMetrics
 
 import piestimate
 
-cap = cv2.VideoCapture(1 + cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0 + cv2.CAP_DSHOW)
 window_width, window_height = 640, 480
 cap.set(3, window_width)
 cap.set(4, window_height)
